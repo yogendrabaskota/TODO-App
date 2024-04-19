@@ -55,12 +55,16 @@ class Home extends StatelessWidget {
     return AppBar(
       backgroundColor: tdBGColor,   
         elevation: 0,
-        title: Row(children: [
+        title: Row(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          children: [
           Icon(
             Icons.menu,
-            color:tdBlack,
+            color: tdBlack,
             size: 30,
+            
           ),
+          SizedBox(width: 19),
           Container(
             height: 40,
             width: 40,

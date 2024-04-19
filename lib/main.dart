@@ -23,10 +23,3 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-
-//class SystemChrome {
-//  static void setSystemUIOverlayStyle(SystemUiOverlayStyle SystemUiOverlayStyle) {}
-//}
-
-//class SystemUiOverlayStyle {
-//}

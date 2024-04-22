@@ -36,7 +36,7 @@ class ToDoItem extends StatelessWidget {
         title: Text(
           todo.todoText!,
           style: TextStyle(
-            fontSize: 16,
+            fontSize: 16, 
             color: tdBlack,
             decoration: todo.isDone ? TextDecoration.lineThrough : null,
           ),

@@ -31,7 +31,7 @@ class _HomeState extends State<Home> {
         children: [
           Container(
             padding: EdgeInsets.symmetric(
-              horizontal: 20,
+              horizontal: 20, 
               vertical: 15,
             ),
             child: Column(

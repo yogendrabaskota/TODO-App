@@ -47,7 +47,7 @@ class ToDoItem extends StatelessWidget {
           height: 35,
           width: 35,
           decoration: BoxDecoration(
-            color: tdRed,
+            color: tdRed, 
             borderRadius: BorderRadius.circular(5),
           ),
           child: IconButton(

@@ -44,7 +44,7 @@ class ToDoItem extends StatelessWidget {
         trailing: Container(
           padding: EdgeInsets.all(0),
           margin: EdgeInsets.symmetric(vertical: 12),
-          height: 35,
+          height: 35, 
           width: 35,
           decoration: BoxDecoration(
             color: tdRed, 
